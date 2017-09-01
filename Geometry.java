@@ -10,6 +10,11 @@ public class Geometry
     
     /**
      * This function finds the area of a triangle when the base and the height are given.
+     * 
+     * @param base Base of the triangle
+     * @param height Height of the triangle
+     * 
+     * @return Area of the triangle
      */
     public static double triangleArea(double base, double height) 
     {
@@ -20,6 +25,11 @@ public class Geometry
     
     /**
      * This function finds the area of a rectangle.
+     * 
+     * @param length Length of the rectangle
+     * @param width Width of the rectangle
+     * 
+     * @return Area of the rectangle
      */
     public static double rectangleArea(double length, double width) 
     {
@@ -28,6 +38,10 @@ public class Geometry
     
     /**
      * This function finds the volume of a sphere.
+     * 
+     * @param radius Radius of the sphere
+     * 
+     * @return Volume of the sphere
      */
     public static double sphereVolume(double radius) 
     {
@@ -36,6 +50,11 @@ public class Geometry
     
     /**
      * This function finds the area of a parallelogram.
+     * 
+     * @param length Length of the parallelogram
+     * @param width Width of the parallelogram
+     * 
+     * @return Area of the parallelogram
      */
     public static double parallelogramArea(double length, double width) 
     {
@@ -44,6 +63,12 @@ public class Geometry
 
     /**
      * This function finds the area of a trapezoid.
+     * 
+     * @param baseone Length of the first base
+     * @param basetwo Length of the second base
+     * @param height Height of the trapezoid
+     * 
+     * @return Area of the trapezoid
      */
     public static double trapezoidArea(double baseone, double basetwo, double height) 
     {
@@ -52,6 +77,12 @@ public class Geometry
 
     /**
      * This function finds the volume of a rectangular prism.
+     * 
+     * @param length Length of the rectangular prism
+     * @param width Width of the rectangular prism
+     * @param height Height of the rectangular prism
+     * 
+     * @return Volume of the rectangular prism
      */
     public static double rectangularPrismVolume(double length, double width, double height) 
     {
@@ -60,6 +91,11 @@ public class Geometry
 
     /**
      * This function finds the volume of a cone.
+     * 
+     * @param radius Radius of the cone
+     * @param height Height of the cone
+     * 
+     * @return Volume of the cone
      */
     public static double coneVolume(double radius, double height) 
     {
@@ -68,6 +104,12 @@ public class Geometry
 
     /**
      * This function finds the surface area of a rectangular prism.
+     * 
+     * @param length Length of the rectangular prism
+     * @param width Width of the rectangular prism
+     * @param height Height of the rectangular prism
+     * 
+     * @return Surface area of the rectangular prism
      */
     public static double rectangularPrismSurfaceArea(double length, double width, double height) 
     {
@@ -76,6 +118,10 @@ public class Geometry
 
     /**
      * This function finds the surface area of a sphere.
+     * 
+     * @param radius Radius of the sphere
+     * 
+     * @return Surface area of the sphere
      */
     public static double sphereSurfaceArea(double radius) 
     {
@@ -84,6 +130,11 @@ public class Geometry
 
     /**
      * This function finds the hypotenuse of a right triangle given the lengths of the other two sides.
+     * 
+     * @param legone The first leg of the triangle
+     * @param legtwo The second leg of the triangle
+     * 
+     * @return Hypotenuse of the triangle
      */
     public static double hypotenuse(double legone, double legtwo) 
     {
@@ -92,6 +143,13 @@ public class Geometry
 
     /**
      * This function finds the distance between two points.
+     * 
+     * @param xone The x value of the first point
+     * @param yone The y value of the first point
+     * @param xtwo The x value of the second point
+     * @param ytwo The y value of the second point
+     * 
+     * @return Distance between the two points
      */
     public static double distance(double xone, double yone, double xtwo, double ytwo) 
     {
@@ -100,6 +158,13 @@ public class Geometry
 
     /**
      * This function finds the slope of a line using two points.
+     * 
+     * @param xone The x value of the first point
+     * @param yone The y value of the first point
+     * @param xtwo The x value of the second point
+     * @param ytwo The y value of the second point
+     * 
+     * @return Slope of the line connecting the two points
      */
     public static double slope(double xone, double yone, double xtwo, double ytwo) 
     {
@@ -110,6 +175,12 @@ public class Geometry
 
     /**
      * This function finds the area of a triangle when given the lengths of all three sides.
+     * 
+     * @param sidea The first side of the triangle
+     * @param sideb The second side of the triangle
+     * @param sidec The third side of the triangle
+     * 
+     * @return Area of the triangle
      */
     public static double triangleAreaSides(double sidea, double sideb, double sidec) 
     {
